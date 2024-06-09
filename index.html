@@ -1,0 +1,2539 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.drjyotisingh.com/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-divi-open-sans-inline-css">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVc.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exg.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exg.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exg.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exg.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exg.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVQ.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVI.woff2) format('woff2');}</style><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic|Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXZ0ow.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w3aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w3aX8.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3AHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6bf.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3ig.ttf) format('truetype');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3ig.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXZ0oA.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w3aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w3aXw.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3AHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6bc.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3iQ.woff) format('woff');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3iQ.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXZ0pg.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w3aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w3aXo.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3AHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6ba.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3jw.woff2) format('woff2');}@font-face {font-family: 'Nunito';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3jw.woff2) format('woff2');}</style><meta name='robots' content='max-image-preview:large' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v15.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title> Aastha Karna | One of the Best Nutritionist in Nepal</title>
+	<meta name="description" content="Nutritionist Aastha Karna, a certified nutritionist, who provides online diet consultation &amp; plans for different health conditions." />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.aasthakarna.com/about/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Dr Aastha Karna | Best Online Nutritionist Practioner" />
+	<meta property="og:description" content="Nutritionist Aastha Karna, a certified nutritionist who provides online diet consultation &amp; plans for different health conditions." />
+	<meta property="og:url" content="https://www.drjyotisingh.com/about/" />
+	<meta property="og:site_name" content="Aastha Karna" />
+	<meta property="article:publisher" content="https://www.facebook.com/aasthakarna" />
+	<meta property="article:modified_time" content="2024-05-05T15:49:53+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@aasthakarna" />
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="22 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.drjyotisingh.com/#organization","name":"Dr Aastha\u2019s Nutrition Pearls; Creating Healthier Lives","url":"https://www.drjyotisingh.com/","sameAs":["https://www.facebook.com/nutritionistdrjyotisingh","https://www.instagram.com/nutritionistdrjyotisingh","https://www.linkedin.com/in/nutritionist-dr-Aastha-singh-4170a892","https://youtube.com/user/nonika6","https://pin.it/5fPypR1","https://twitter.com/drjyotisingh"],"logo":{"@type":"ImageObject","@id":"https://www.drjyotisingh.com/#logo","inLanguage":"en-US","url":"https://www.drjyotisingh.com/wp-content/uploads/2022/04/73194167-8DC4-4C11-8C8A-0CE744F3F1A5.png","width":250,"height":249,"caption":"Dr Aastha\u2019s Nutrition Pearls; Creating Healthier Lives"},"image":{"@id":"https://www.drjyotisingh.com/#logo"}},{"@type":"WebSite","@id":"https://www.drjyotisingh.com/#website","url":"https://www.drjyotisingh.com/","name":"Dr Aastha Karna","description":"Nutritionist, Dietitian, Nutrition Expert","publisher":{"@id":"https://www.drjyotisingh.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.drjyotisingh.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.drjyotisingh.com/about/#webpage","url":"https://www.drjyotisingh.com/about/","name":"Dr Aastha Karna | Best Online Nutritionist in India","isPartOf":{"@id":"https://www.drjyotisingh.com/#website"},"datePublished":"2021-11-09T09:05:30+00:00","dateModified":"2024-05-05T15:49:53+00:00","description":"Nutritionist Dr. Aastha Karna, a certified nutritionist in India provides online diet consultation & plans for different health conditions.","breadcrumb":{"@id":"https://www.drjyotisingh.com/about/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.drjyotisingh.com/about/"]}]},{"@type":"BreadcrumbList","@id":"https://www.drjyotisingh.com/about/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.drjyotisingh.com/","url":"https://www.drjyotisingh.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.drjyotisingh.com/about/","url":"https://www.drjyotisingh.com/about/","name":"About"}}]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Aastha Karna &raquo; Feed" href="https://www.aasthakarna.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Aastha Karna &raquo; Comments Feed" href="https://www.aasthakarna.com/comments/feed/" />
+<meta content="Aries Web Solutions v.1.0" name="generator"/><link rel='stylesheet' id='structured-content-frontend-css' href='https://www.aastha.com/wp-content/plugins/structured-content/dist/blocks.style.build.css?ver=1.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ddd_assistant-admin-css-css' href='https://www.aasthakarna.com/wp-content/plugins/divi-den-on-demand/css/ddd-admin.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ht_ctc_main_css-css' href='https://www.aasthakarna.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/css/main.css?ver=3.34' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:#ffffffa6}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:#ffffffa6}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}body { margin: 0;--wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='dipi_pannellum_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/pannellum.2.5.6.min.css?ver=2.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_general_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/general.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_swiper_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/swiper.5.3.8.min.css?ver=5.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_magnify_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/magnify.css?ver=2.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_animate_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/animate.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_videojs_css-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/css/video-js.7.0.3.min.css?ver=7.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-pixel-styles-css' href='https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.drjyotisingh.com/wp-content/plugins/tablepress/css/build/default.css?ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//www.drjyotisingh.com/wp-content/uploads/pum/pum-site-styles.css?generated=1714550457&#038;ver=1.18.5' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-parent-css' href='https://www.drjyotisingh.com/wp-content/themes/Divi/style-static.min.css?ver=4.24.0' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://www.drjyotisingh.com/wp-content/themes/Aries-Web-Solutions/style.css?ver=4.24.0' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-pum-css' href='https://www.drjyotisingh.com/wp-content/themes/Aries-Web-Solutions/style.css?ver=4.24.0' type='text/css' media='all' />
+<!--n2css--><script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/popper.min.js?ver=2.0.0" id="dipi_popper-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/tippy.min.js?ver=6.2.0" id="dipi_tippy-js"></script>
+<link rel="https://api.w.org/" href="https://www.drjyotisingh.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.drjyotisingh.com/wp-json/wp/v2/pages/226320" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.drjyotisingh.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.3" />
+<link rel='shortlink' href='https://www.drjyotisingh.com/?p=226320' />
+<link rel="alternate" type="application/json+oembed" href="https://www.drjyotisingh.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.drjyotisingh.com%2Fabout%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.drjyotisingh.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.drjyotisingh.com%2Fabout%2F&#038;format=xml" />
+<meta name="cdp-version" content="1.4.6" />
+<script type="text/javascript" id="dipi-logo-js">
+jQuery(document).ready(function($) {
+    // TODO: Implement fixed/mobile logo for Theme Builder menus
+    let tbLogo = $('.et-l--header .et_pb_menu__logo img');
+    
+    // Get the originals
+    let $mainHeader = $('#main-header');
+    let $logo = $('#logo');    
+    
+    // Clone $logo so we can replace it rather than just change src attr (because this causes a bug in Safari browser) 
+    let $mainLogo = $logo.clone();
+    if($mainLogo.length) {
+        $mainLogo.attr("data-logo-type", "main");
+        $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+        $mainLogo.attr("data-actual-height", $mainLogo[0].naturalHeight);
+    }
+
+    // Clone $logo to use in fixed header. If fixed header logo is not enabled, we simple use the original logo
+            let $fixedLogo = $logo.clone();
+        if($fixedLogo.length) {
+        $fixedLogo.attr("data-actual-width", $fixedLogo[0].naturalWidth);
+        $fixedLogo.attr("data-actual-height", $fixedLogo[0].naturalHeight);
+    }
+    
+    // Clone $logo to use in mobile. If mobile logo is not enabled, we simple use the original logo
+        let $mobileLogo = $logo.clone();
+    
+
+    // Callback to fire when window is resized or scrolled
+	function dipi_logo_change() {
+        if($mainLogo.length)
+            $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+        let $a = $(".logo_container a");
+        $a.find("#logo").remove();
+        if($(window).width() > 980){
+            if ($mainHeader.hasClass('et-fixed-header')){
+                $a.append($fixedLogo);
+    		} else {
+                $a.append($mainLogo);
+    		}
+        } else {
+            $a.append($mobileLogo);
+        }
+
+        // FIXME: THis causes issue with fixed logo on desktop
+        // FIXME: In mobile-menu-breakpoing, for certain situations we add #dipi_logo which is a clone. We need to fix mobile logo etc. for this as wel
+		// 	$('#dipi_logo').attr('src', '');
+		// 	$('#logo').attr('src', '');
+		// 	// $('.et-l--header .et_pb_menu__logo img').attr('src', '');
+		// } else {
+		// 	$('#logo').attr('src', logo_src);
+		// 	// $('.et-l--header .et_pb_menu__logo img').attr('src', tbLogoUrl);
+		// }
+
+    }
+    
+    function callback(mutationList, observer) {
+        mutationList.forEach(function(mutation){
+            if('attributes' != mutation.type || 'class' !== mutation.attributeName){
+                return;
+            }
+
+            dipi_logo_change();
+        });
+    }
+
+    var targetNode = document.querySelector("#main-header");
+    var observerOptions = {
+        childList: false,
+        attributes: true,
+        subtree: false
+    }
+
+    if(targetNode){
+        var observer = new MutationObserver(callback);
+        observer.observe(targetNode, observerOptions);
+    }
+
+    // Observe resize events to switch between mobile/fixed logos
+    $(window).resize(dipi_logo_change);
+
+    // finally call the callback manually once to get started
+    dipi_logo_change();
+});
+</script><script>
+jQuery(window).load(function() {
+  jQuery("body").removeClass("dipi-anim-preload");
+});
+</script>
+
+<style type="text/css" id="dipi-footer-styles">
+
+  
+  
+	.bottom-nav li {
+		font-family: 'none', sans-serif;		font-weight: 500;
+    	padding-right: 20px;
+  	}
+
+  	.bottom-nav li:last-child{
+    	padding-right: 0px;
+	}
+
+	.dipi-hover-underline-animation::after {
+		background-color: ;
+	}
+
+	.bottom-nav a:hover {
+		color: ;
+	}
+</style>
+<style type="text/css" id="dipi-footer-dont-hide-bottom-bar-styles">
+	#footer-bottom {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#footer-info {
+		font-family: 'none', sans-serif;		letter-spacing: 0px;
+		font-weight: 500;
+	}
+
+	#footer-info a {
+    color: ;
+  }
+
+  #footer-info a:hover {
+    color: ;
+  }
+
+	
+		#footer-bottom > .container{
+		display:flex;
+		flex-direction: column;
+		}
+		.et-social-icons {
+			float: none !important;
+			text-align: center !important;
+			margin-bottom: 10px;
+		}
+
+		#footer-info {
+		  	float: none !important;
+		  	text-align: center !important;
+        	order: 2;
+		}
+
+		#main-footer .dipi-footer-menu-social-icons {
+			justify-content: center !important;
+			order:1;
+        }
+
+	</style>
+
+<style type="text/css" id="related-articles-css">
+
+	.dipi-related-section-articles-title {
+		font-family: 'none', sans-serif;;
+	    		font-size:22px !important;
+		color:#2c3d49 !important;
+		letter-spacing: 0px !important;
+	    font-weight: 600 !important;
+        							}
+
+	.dipi-related-article-thumb img {
+		height: 200px !important;
+	}
+
+	.dipi-related-article-thumb .dipi-image-overlay {
+  		transition: all .3s ease-in-out !important;
+		background:  !important;
+	}
+
+	.dipi-related-article-thumb .dipi-image-overlay:hover,
+	.dipi-related-article-thumb .dipi-image-overlay-hover{
+  		transition: all .3s ease-in-out;
+		background:  !important;
+	}
+
+	.dipi-related-article-column {
+		background: #ffffff !important;
+		border-radius:10px !important;
+		border-width:0px !important;
+		border-color: !important;
+			}
+
+	.dipi-related-article-column:hover {
+			}
+	
+  	.dipi-related-article-title{
+		padding-right: calc(20px  + 25px);
+	}
+	
+	.dipi-related-article-title {
+		font-family: 'none', sans-serif;;
+				font-size:18px;
+		line-height: 20px;
+		color: !important;
+		letter-spacing: 0px;
+	    font-weight: 700;
+	}
+
+	.dipi-related-article-title:hover,
+	.dipi-related-article-title-hover {
+		color: !important;
+	}
+
+	.dipi-readmore-arrow:before {
+		font-size: 20px !important;
+					    content: '$' !important;
+			}
+
+	.dipi-readmore-arrow:hover:before,
+	.dipi-related-article-arrow-hover .dipi-readmore-arrow:before {
+			}
+
+</style>
+
+<script type="text/javascript" id="related-articles-js">
+	jQuery(document).ready(function() {
+		jQuery(document).on('hover', '.dipi-related-article-column', function (e) {
+			if(e.type == 'mouseenter') {
+				if (jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-in") ) {
+					jQuery(this).find(".dipi-related-article-thumb").addClass("dipi-zoom-in-hover");
+				}
+				if (jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-out") ) {
+					jQuery(this).find(".dipi-related-article-thumb").addClass("dipi-zoom-out-hover");
+				}
+				if ( jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-rotate") ) {
+					jQuery(this).find(".dipi-related-article-thumb").addClass("dipi-zoom-rotate-hover");
+				}
+				jQuery(this).find(".dipi-related-article-title").addClass("dipi-related-article-title-hover");
+				jQuery(this).find(".dipi-image-overlay").addClass("dipi-image-overlay-hover");
+				jQuery(this).find(".dipi-related-article-arrow").addClass("dipi-related-article-arrow-hover");
+			} else if (e.type == 'mouseleave') {
+				if ( jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-in") ) {
+					jQuery(this).find(".dipi-related-article-thumb").removeClass("dipi-zoom-in-hover");
+				}
+				if ( jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-out") ) {
+					jQuery(this).find(".dipi-related-article-thumb").removeClass("dipi-zoom-out-hover");
+				}
+				if ( jQuery(this).find(".dipi-related-article-thumb").hasClass("dipi-zoom-rotate") ) {
+					jQuery(this).find(".dipi-related-article-thumb").removeClass("dipi-zoom-rotate-hover");
+				}
+				jQuery(this).find(".dipi-related-article-title").removeClass("dipi-related-article-title-hover");
+				jQuery(this).find(".dipi-image-overlay").removeClass("dipi-image-overlay-hover");
+				jQuery(this).find(".dipi-related-article-arrow").removeClass("dipi-related-article-arrow-hover");
+			}
+	    });
+	});
+</script>
+
+
+<style type="text/css" id="cta-button-styles">
+
+
+    header.et-l--header ul.et-menu {
+        align-items: center !important;
+    }
+ 
+    .et-db #et-boc .et-l ul > li > a.dipi-cta-button,
+    header.et-l--header ul > li > a.dipi-cta-button,
+    header#main-header #et-top-navigation nav > ul > li > a.dipi-cta-button {
+        opacity: 1 !important;
+        font-family: 'none', sans-serif;;
+                font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        background-color: #2b802d;
+                padding-top: 10px !important;
+        padding-right: 20px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+                
+        border-width: 0px;
+        border-color: ;
+        border-radius: 50px;
+        border-style: solid !important;
+            
+                transition: all .3s;
+    }
+
+    header.et-l--header .dipi-cta-button span:before,
+    header.et-l--header .dipi-cta-button span:after,
+    header#main-header .dipi-cta-button span:before,
+    header#main-header .dipi-cta-button span:after {
+        position: relative;
+        text-shadow: 0 0;
+        font-family: ETmodules !important;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-transform: none;
+        speak: none;
+    }
+
+    .et-db #et-boc .et-l ul > li > a.dipi-cta-button:hover,
+    header.et-l--header ul > li > a.dipi-cta-button:hover,
+    header#main-header ul > li > a.dipi-cta-button:hover {
+        color: #ffffff !important;
+        background-color: #7cda24 !important;
+        border-color:  !important;
+        padding-top: 10px !important;
+        padding-right: 20px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+            }
+
+    header.et-l--header .dipi-cta-button span,
+    header#main-header .dipi-cta-button span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header.et-l--header .et_pb_button.dipi-cta-button span:before,
+    header#main-header .et_pb_button.dipi-cta-button span:before {
+        margin-right: 5px;
+    }
+
+    header.et-l--header .et_pb_button.dipi-cta-button span:after,
+    header#main-header .et_pb_button.dipi-cta-button span:after {
+        margin-left: 5px;
+    }
+
+    header.et-l--header .dipi-cta-button-menu-item .et_pb_button:after,
+    header.et-l--header .dipi-cta-button-menu-item .et_pb_button:before,
+    header.et-l--header .dipi-cta-button-icon-none span:after,
+    header.et-l--header .dipi-cta-button-icon-none span:before,
+    header#main-header .dipi-cta-button-menu-item .et_pb_button:after,
+    header#main-header .dipi-cta-button-menu-item .et_pb_button:before,
+    header#main-header .dipi-cta-button-icon-none span:after,
+    header#main-header .dipi-cta-button-icon-none span:before {
+        content: none !important;
+    }
+
+    header.et-l--header .et_pb_button.dipi-cta-button-icon-left span:before,
+    header.et-l--header .et_pb_button.dipi-cta-button-icon-right span:after,
+    header#main-header .et_pb_button.dipi-cta-button-icon-left span:before,
+    header#main-header .et_pb_button.dipi-cta-button-icon-right span:after {
+        content: "E";
+        font-size: 15px;
+    }
+
+    header#main-header.et-fixed-header #et-top-navigation .dipi-cta-button {
+        background-color: #2b802d !important;
+        border-color:  !important;
+        color: #ffffff !important;
+    }
+
+    header#main-header.et-fixed-header #et-top-navigation .dipi-cta-button:hover {
+        background-color: #2c3d49 !important;
+        border-color:  !important;
+        color: #ffffff !important;
+    }
+
+    /* Vertical Navigation CTA Button Style */
+    .et_vertical_nav #main-header #et-top-navigation nav > ul > li > a.dipi-cta-button {
+        margin-right: 0;
+    }
+
+
+</style>
+
+<style type="text/css" id="mobile-cta-button-styles">
+@media (max-width: 980px) {
+    body.dipi-mobile-cta-button .dipi-cta-button,
+    body.dipi-mobile-cta-button #main-header.et-fixed-header .dipi-cta-button {
+        font-family: 'none', sans-serif;;
+                font-weight: 500 !important;
+        font-size: px !important;
+        letter-spacing: px !important;
+        color: #ffffff !important;
+        background-color: #ff4200 !important;
+        padding: 12px !important;
+        border-style: solid;
+        border-width: 0px !important;
+        border-color:  !important;
+        border-radius: 100px !important;
+        transition: all .5s ease-in-out; 
+            }
+
+    .dipi-hide-cta-button-mobile {
+        display: none !important;
+    }
+
+}
+</style><style type="text/css" id="primary-menu-position">
+
+@media screen and (min-width: 981px) {
+    #et_top_search{
+        margin: 15px 0 0 22px;
+    }
+    
+    .et_header_style_split div#et-top-navigation,
+    .et_header_style_left div#et-top-navigation{
+        align-items: flex-start !important;
+    }
+
+    .et_header_style_left #et-top-navigation nav > ul > li > a,
+    .et_header_style_split #et-top-navigation nav > ul > li > a {
+        padding-bottom: 43px !important;
+    }
+
+            .dipi-primary-menu-social-icons{
+            margin-top: 5px;
+        }
+        .et_header_style_centered #top-menu > li > a,
+        .et_header_style_left #et-top-navigation nav > ul > li > a,
+        .et_header_style_split #et-top-navigation nav > ul > li > a {
+            line-height: 1.7em;
+        }
+    
+    .et_header_style_left div#et-top-navigation {
+        display: flex;
+        align-items: center;
+        
+        /* With social icons enabled, we remove the bottom padding below the li elements so we need to add it to the container */
+        padding-top: 33px;
+        padding-bottom: 0px;
+    }
+    
+    .et_header_style_split div#et-top-navigation {
+        align-items: center;
+
+        /* With social icons enabled, we remove the bottom padding below the li elements so we need to add it to the container */
+        padding-top: 33px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .et_header_style_fullscreen #et-top-navigation {  
+        padding-bottom: 0px !important;   
+    }
+
+    /* Vertical Navigation Styles */
+    .et_vertical_nav #main-header #top-menu>li>a {
+        padding-bottom: 19px !important;
+        line-height: inherit;
+    }
+    .et_vertical_nav #main-header #et-top-navigation {
+        display: block;
+    }
+    .et_vertical_nav #top-header {
+        position: initial;
+    }
+    .et_vertical_fixed.admin-bar #page-container #main-header {
+        top:32px !important;
+    }
+    .et_vertical_nav.et_vertical_fixed.et_header_style_left #et-top-navigation {
+        padding-top:33px !important;
+    }
+    .et_vertical_fixed.admin-bar #page-container #main-header {
+        transform: translateY(0) !important;
+    }
+    .et_vertical_nav #page-container #main-header {
+        top: 0 !important;
+    }
+
+    /* With do-not-shrink functionality enabeld, we also must apply padding to fixed menu */
+            .et_header_style_left .et-fixed-header #et-top-navigation,
+        .et_header_style_split .et-fixed-header #et-top-navigation {
+            padding-top: 20px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .et_header_style_centered .et-fixed-header #et-top-navigation {
+            padding-top: 20px;
+            padding-bottom: 0px !important; 
+        }
+
+        .et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
+        .et_header_style_split .et-fixed-header #et-top-navigation nav > ul > li > a{
+            padding-bottom: 30px !important;
+        }
+    
+    .et-menu li ul,
+    #top-menu li ul{width: 240px !important;}
+    .et-menu li li a,
+    #top-menu li li a{width:100% !important;}
+    #top-menu li li,
+    .et-menu li li{width: 100%;}
+</style>
+<script id="dipi-menu-hover-styles-js">
+    jQuery(document).ready(function($){
+        $("#top-menu-nav #top-menu li a").not(".dipi-cta-button").wrapInner("<span></span>");
+        $(".et_pb_menu__menu > nav > ul > li > a").not(".dipi-cta-button").wrapInner("<span></span>");
+    });
+</script>
+
+<style id="dipi-menu-hover-styles">
+
+    #top-menu li a,
+    .et_pb_menu__menu > nav > ul > li a {
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    #top-menu li > a > span,
+    .et_pb_menu__menu > nav > ul > li a > span {
+        position: relative;
+    }
+
+        .three_dots #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .three_dots .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after
+     {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        text-shadow: 0 0 transparent;
+        width: 5px;
+        height: 5px;
+        border-radius: 100px;
+        transform: translateX(-50%);
+    }
+
+        .three_dots #top-menu li.current-menu-ancestor > a > span:after,
+    .three_dots .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+                .three_dots #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span:after,
+    .three_dots .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span:after
+     {
+        background-color: #2b802d;
+        box-shadow: 10px 0 #2b802d, -10px 0 #2b802d;
+    }
+
+        .three_dots .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+        
+        .three_dots .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span:after
+     {
+        background-color: #2b802d !important;
+        box-shadow: 10px 0 #2b802d, -10px 0 #2b802d !important;
+    }
+    
+        
+        .filled_background #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span,
+    .filled_background .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span
+     {
+        padding: 5px 10px;
+        margin: -5px -10px;
+        border-style: solid;
+        border-color: transparent;
+        background-color: transparent;
+        transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out, border-color .3s ease-in-out;
+        border-width: 2px;
+        border-top-left-radius: px;
+        border-top-right-radius: px;
+        border-bottom-left-radius: px;
+        border-bottom-right-radius: px;
+    }
+
+        .filled_background #top-menu li.current-menu-ancestor > a > span,
+    .filled_background .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span,
+    
+    
+        .filled_background #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span,
+    .filled_background .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span
+     {
+        padding: 5px 10px;
+        margin: -5px -10px;
+        border-color: #2b802d;
+        background-color: #2b802d;
+            }
+
+    .filled_background #top-menu li.menu-item-has-children > a > span,
+    .filled_background .et_pb_menu__menu > nav > ul > li.menu-item-has-children > a > span,
+    .filled_background #top-menu li.menu-item-has-children:hover > a > span,
+    .filled_background .et_pb_menu__menu > nav > ul > li.menu-item-has-children:hover > a > span {
+        padding: 5px 25px 5px 10px;
+        margin: -5px -25px -5px -10px;
+    }
+
+        .filled_background .et-fixed-header #top-menu li.current-menu-ancestor > a > span,
+        
+        .filled_background .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span
+     {
+        background-color: #2b802d !important;
+    }
+
+        .slide_up_below #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .slide_up_below .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after
+      {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0;
+    }
+
+        .slide_up_below #top-menu li.current-menu-ancestor > a > span:after,
+    .slide_up_below .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    
+    
+        .slide_up_below #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span:after,
+    .slide_up_below .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover > a > span:after
+     {
+        top: calc(25px - 5px) !important;
+        opacity: 1 !important;
+    }
+
+        .slide_up_below .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+                .slide_up_below .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after
+     {
+        background-color: #2b802d !important;
+    }
+
+        .slide_down_below #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .slide_down_below .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0;
+    }
+
+        .slide_down_below #top-menu li.current-menu-ancestor > a > span:after,
+    .slide_down_below .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    
+    
+        .slide_down_below #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .slide_down_below .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after
+     {
+        top: calc(25px + 5px) !important;
+        opacity: 1 !important;
+    }
+    
+        .slide_down_below .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+                .slide_down_below .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after
+     {
+        background-color: #2b802d !important;
+    }
+
+        .grow_below_left #top-menu > li:not(.menu-item-has-children) a > span:after,
+    .grow_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children) a > span:after,
+    .grow_above_and_below_left #top-menu > li:not(.menu-item-has-children) a > span:after,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children) a > span:after
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_above_and_below_left #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: -5px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_below_left #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_below_left .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_left #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_left #top-menu li.current-menu-ancestor > a > span:before,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:before,
+    
+    
+        .grow_below_left #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_left #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_left #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_left .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before
+     {
+        width: 100% !important;
+        opacity: 1 !important;
+    }
+
+        .grow_below_left .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_left .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_left .et-fixed-header #top-menu li.current-menu-ancestor > a > span:before,
+        
+        .grow_below_left .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_left .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_left .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:before
+     {
+        background-color: #2b802d !important;
+    }
+
+        .grow_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_above_and_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_above_and_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        top: -5px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_below_center #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_center #top-menu li.current-menu-ancestor > a > span:before,
+    .grow_above_and_below_center #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_below_center .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:before,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    
+    
+        .grow_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .grow_above_and_below_center #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .grow_above_and_below_center .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after
+     {
+        width: 100% !important;
+        opacity: 1 !important;
+        left: 0 !important;
+    }
+
+        .grow_below_center .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_center .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_center .et-fixed-header #top-menu li.current-menu-ancestor > a > span:before,
+        
+        .grow_below_center .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_center .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_center .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:before
+     {
+        background-color: #2b802d !important;
+    }
+
+        .grow_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_above_and_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        right: 0;
+        position: absolute;
+        top: 25px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_above_and_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before
+     {
+        content: '';
+        display: block;
+        background: #2b802d;
+        width: 0;
+        height: 2px;
+        right: 0;
+        position: absolute;
+        top: -5px;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        border-radius: 0px;
+    }
+
+        .grow_below_right #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right #top-menu li.current-menu-ancestor > a > span:before,
+    .grow_below_right .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:before,
+    
+    
+        .grow_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_right #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .grow_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .grow_above_and_below_right .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before
+
+     {
+        width: 100% !important;
+        opacity: 1 !important;
+    }
+
+        .grow_below_right .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right .et-fixed-header #top-menu li.current-menu-ancestor > a > span:after,
+    .grow_above_and_below_right .et-fixed-header #top-menu li.current-menu-ancestor > a > span:before,
+    
+    
+        .grow_below_right .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_right .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:after,
+    .grow_above_and_below_right .et-fixed-header #top-menu li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) > a > span:before
+     {
+        background-color: #2b802d !important;
+    }
+
+        .bracketed_out #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .bracketed_out .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before
+     {
+        content: '[';
+        display: inline-block;
+        color: #2b802d;
+        transition: all .15s ease-in-out;
+        opacity: 0;
+        left: 0;
+        position: absolute;
+        top: 0;
+        font-size: 120%;
+    }
+
+        .bracketed_out #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .bracketed_out .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        content: ']';
+        display: inline-block;
+        color: #2b802d;
+        transition: all .15s ease-in-out;
+        opacity: 0;
+        right: 0;
+        position: absolute;
+        top: 0;
+        font-size: 120%;
+    }
+
+        .bracketed_in #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before
+     {
+        content: '[';
+        display: inline-block;
+        color: #2b802d;
+        transition: all .15s ease-in-out;
+        opacity: 0;
+        left: -20px;
+        position: absolute;
+        top: 0;
+        font-size: 120%;
+    }
+
+        .bracketed_in #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        content: ']';
+        display: inline-block;
+        color: #2b802d;
+        transition: all .15s ease-in-out;
+        opacity: 0;
+        right: -20px;
+        position: absolute;
+        top: 0;
+        font-size: 120%;
+    }
+
+        .bracketed_out #top-menu li.current-menu-ancestor > a > span:before,
+    .bracketed_in #top-menu li.current-menu-ancestor > a > span:before,
+    .bracketed_out .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:before,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:before,
+    
+    
+        .bracketed_out #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .bracketed_in #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+
+    .bracketed_out .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:before
+     {
+        left: -10px !important;
+        opacity: 1 !important;
+    }
+
+        .bracketed_out #top-menu li.current-menu-ancestor > a > span:after,
+    .bracketed_in #top-menu li.current-menu-ancestor > a > span:after,
+    .bracketed_out .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li.current-menu-ancestor > a > span:after,
+    
+    
+        .bracketed_out #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .bracketed_in #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .bracketed_out .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after,
+    .bracketed_in .et_pb_menu__menu > nav > ul > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item):hover a > span:after
+
+     {
+        right: -10px !important;
+        opacity: 1 !important;
+    }
+
+    @-moz-document url-prefix() { 
+        .filled_background #top-menu li:not(.dipi-cta-button-menu-item) > a > span,
+        .filled_background .et_pb_menu__menu > nav > ul > li:not(.dipi-cta-button-menu-item) > a > span,
+        .filled_background #top-menu li:not(.dipi-cta-button-menu-item):hover > a > span,
+        .filled_background .et_pb_menu__menu > nav > ul > li:not(.dipi-cta-button-menu-item):hover > a > span {
+            margin: 0 !important;
+        }
+    }
+
+        .bracketed_out .et-fixed-header #top-menu > li.current-menu-ancestor a > span:before,
+    .bracketed_in .et-fixed-header #top-menu > li.current-menu-ancestor a > span:before,
+    .bracketed_out .et-fixed-header #top-menu > li.current-menu-ancestor a > span:after,
+    .bracketed_in .et-fixed-header #top-menu > li.current-menu-ancestor a > span:after,
+    
+    
+        .bracketed_out .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .bracketed_in .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:before,
+    .bracketed_out .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after,
+    .bracketed_in .et-fixed-header #top-menu > li:not(.menu-item-has-children):not(.dipi-cta-button-menu-item) a > span:after
+     {
+        color: #2b802d !important;
+    }
+
+</style><style>
+.dipi-fixed-header #main-header,
+.dipi-fixed-header #top-header{position:fixed !important;width:100%;}
+</style>
+
+<script type="text/javascript">
+	jQuery(document).ready(function ($) {
+		window.dipi_apply_hide_top_bar_timer = null;
+		window.dipi_apply_hide_top_bar = function () {
+			var $mainContent = $('#page-container'),
+				$mainHeader = $('#main-header');
+				if($mainHeader.length === 0 && $('.et-l--header').length > 0 )
+					$mainHeader = $('.et-l--header');
+			
+			var $topHeader = $('#top-header'),
+				$adminBar = $('#wpadminbar'),
+				adminBarHeight = $('#wpadminbar').height(),
+			 	mainHeaderHiehgt = $mainHeader.height(),
+				topBarHeight = 0;
+			
+
+			if($topHeader.length > 0)
+				topBarHeight = $('#top-header').height();
+
+			var didScroll = false;
+			var lastScrollTop = 0;
+			var delta = 5;
+			if(!$('body').hasClass('admin-bar'))
+				adminBarHeight = 0;
+
+				$mainHeader.css('top', adminBarHeight + topBarHeight );
+			$topHeader.css('top', adminBarHeight );
+
+			if($mainHeader.css('position') === 'relative'){
+				$mainHeader.css('top', 0 );
+			}
+			
+			if($(window).width() > 980){
+					
+				
+				return;
+			}
+							$('body').removeClass('dipi-fixed-header');
+				clearInterval(window.dipi_apply_hide_top_bar_timer);
+			
+			function hideTopBarOnScroll(){
+				var scrollTop = $(this).scrollTop();
+				var adminBarHeight = $('#wpadminbar').height();
+				var topBarHeight = 0;
+				if($topHeader.length > 0)
+					topBarHeight = $('#top-header').height();
+				if(Math.abs(lastScrollTop - scrollTop) <= delta){
+					return;
+				}
+				if (scrollTop > lastScrollTop && scrollTop > topBarHeight) { // scroll down
+					$('#top-header').css('transform', 'translateY(-' + topBarHeight + 'px)');
+					$('#main-header').css('transform', 'translateY(-' + topBarHeight + 'px)');
+				} else if(scrollTop + $(window).height() < $(document).height()) {
+					$('#top-header').css('transform', 'translateY(0px)');
+					$('#main-header').css('transform', 'translateY(0px)');
+				}
+				lastScrollTop = scrollTop;
+			}
+			function hasScrolled() {
+				var adminBarHeight = $('#wpadminbar').height();
+				var topBarHeight = 0;
+				if($topHeader.length > 0)
+					topBarHeight = $('#top-header').height();
+				
+					if(!$('body').hasClass('admin-bar'))
+						adminBarHeight = 0;
+				var scrollTop = $(this).scrollTop();
+				
+				if(Math.abs(lastScrollTop - scrollTop) <= delta){
+					return;
+				}
+				if (scrollTop > lastScrollTop && scrollTop > topBarHeight) { // scroll down
+					if($(window).width() > 600)
+						adminBarHeight = 0;
+											$('#top-header').css('transform', 'translateY(-' +  adminBarHeight + 'px)');
+						$('#main-header').css('transform', 'translateY(-' +  adminBarHeight + 'px)');
+									} else if(scrollTop + $(window).height() < $(document).height()) {
+					$('#top-header').css('transform', 'translateY(0px)');
+					$('#main-header').css('transform', 'translateY(0px)');
+				}
+
+				lastScrollTop = scrollTop;
+			}
+		}
+		window.dipi_apply_hide_top_bar();
+		$(window).on('resize', function(){
+			window.dipi_apply_hide_top_bar();
+		})
+	});
+</script>
+
+	<style type="text/css" id="top-header-bar-css">
+	@media (max-width: 980px){
+		#main-header,
+		#top-header{
+			transition:transform 0.4s, opacity 0.4s ease-in-out, -webkit-transform 0.4s !important;
+		}
+	}
+			#top-header {
+			font-family: 'none', sans-serif;;
+			font-size: px !important;
+			letter-spacing: px !important;
+					}
+
+		#top-header li a,
+		#et-info-email,
+		#et-info-phone {
+						font-weight:  !important;
+		}
+			</style>
+
+
+<style type="text/css" id="main-header-bar-mobile-css">
+/* .et_header_style_centered header#main-header.et-fixed-header .logo_container.logo_container {
+	height: auto !important;
+} */
+</style>
+<style type="text/css" id="primary-menu-styles-css">
+
+	.et-menu-nav ul.et-menu li,
+	#top-menu li {
+		padding-right: px !important;
+		transition: all .3s ease-in-out;
+	}
+
+	.et-fixed-header #top-menu li {
+		padding-right: px !important;
+		transition: all .3s ease-in-out;
+	}
+
+	.et-menu-nav ul.et-menu li a,
+	#top-menu a {
+				font-weight: ;
+	}
+
+	.et-menu-nav ul.et-menu li a:hover,
+	#top-menu a:hover {
+		color:  ;
+		opacity: 1 !important;
+	}
+
+	.et-fixed-header ul#top-menu li a:hover {
+		color:  !important;
+	}
+
+</style>
+<style type="text/css">
+.dipi-author-section .dipi-author-right h3 {
+    font-family: 'none', sans-serif;;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: ;
+    }
+</style>
+
+
+<style type="text/css">
+.dipi-author-section .dipi-author-right p {
+    font-family: 'none', sans-serif;;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: ;
+    }
+</style>
+
+
+<style type="text/css">
+.dipi-author-section .dipi-author-left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border-width: 0px;
+    border-color: ;
+    border-style: solid;
+    }
+
+.dipi-author-right {
+    width: calc(100% - 110px);	
+}
+
+</style>
+
+
+<style type="text/css">
+
+	.dipi-author-section .dipi-author-row {
+		background-color: ;
+	    padding: 40px;
+	    border-radius: 10px;
+	    border-width: 0px;
+	    border-color: ;
+	}
+
+	
+</style>
+
+<style type="text/css">
+	.dipi-author-section .dipi-author-row {
+			}
+</style>
+
+ 
+
+<style type="text/css" id="dropdown-menu-styles-css">
+	
+	header.et-l--header .nav li ul,
+	.nav li ul {
+		background:  !important;
+		border-radius: 5px !important;
+			}
+
+	.nav li ul a {
+		transition: all .2s ease-in-out;
+    	font-family: 'none', sans-serif;    	    	font-weight: 700 !important;
+		font-size: 14px !important;
+		letter-spacing: 0px !important;
+		color:  !important;
+    }
+
+	.nav li ul a:hover {
+		color:  !important;
+		letter-spacing: 0px !important;
+		background:  !important;
+	}
+
+	
+	</style>
+<style>
+@media all and (max-width: 980px) {
+    .et_header_style_centered.et_header_style_centered header#main-header.et-fixed-header .logo_container {
+        height: auto;
+    }
+
+    .et_header_style_split #et_mobile_nav_menu,
+    .et_header_style_centered #et_mobile_nav_menu{
+		    flex: 1;
+    }
+
+    #et-top-navigation {
+        display: flex !important;
+    }
+}
+
+@media all and (min-width: 981px) {
+    .et_header_style_centered #et-top-navigation {
+        justify-content: center;
+    }
+
+    .et_header_style_centered #et_search_icon#et_search_icon:before {
+        position: relative;
+        top: 0;
+    }
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #2b802d; }
+</style>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KF4RK9J');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://www.drjyotisingh.com/wp-content/uploads/2021/09/cropped-logo250-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.drjyotisingh.com/wp-content/uploads/2021/09/cropped-logo250-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.drjyotisingh.com/wp-content/uploads/2021/09/cropped-logo250-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.drjyotisingh.com/wp-content/uploads/2021/09/cropped-logo250-270x270.png" />
+<link rel="stylesheet" id="et-core-unified-226320-cached-inline-styles" href="https://www.drjyotisingh.com/wp-content/et-cache/226320/et-core-unified-226320.min.css?ver=1716562748" /><link rel="stylesheet" id="et-core-unified-deferred-226320-cached-inline-styles" href="https://www.drjyotisingh.com/wp-content/et-cache/226320/et-core-unified-deferred-226320.min.css?ver=1716562748" /><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="page-template-default page page-id-226320 custom-background three_dots dipi-fix-search-icon dipi-mobile-cta-button dipi-anim-preload et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.drjyotisingh.com/">
+						<img src="/wp-content/uploads/2022/08/Dr.-Aastha-Singh.webp" width="250" height="249" alt="Dr Aastha Karna" id="logo" data-height-percentage="48" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-226271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-226271"><a href="https://www.drjyotisingh.com/">Home</a></li>
+<li id="menu-item-226356" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-226320 current_page_item menu-item-226356"><a href="https://www.drjyotisingh.com/about/" aria-current="page">About</a></li>
+<li id="menu-item-226277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-226277"><a href="#">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-226274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-226274"><a href="https://www.drjyotisingh.com/nutrition-females/">Nutrition for Females</a>
+	<ul class="sub-menu">
+		<li id="menu-item-226787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226787"><a href="https://www.drjyotisingh.com/pcos-diet-plans/">Nutritionist for PCOS</a></li>
+		<li id="menu-item-226847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226847"><a href="https://www.drjyotisingh.com/pcod-diet-plans/">PCOD Diet Plans</a></li>
+	</ul>
+</li>
+	<li id="menu-item-226275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226275"><a href="https://www.drjyotisingh.com/child-nutrition/">Child Nutrition</a></li>
+	<li id="menu-item-226272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226272"><a href="https://www.drjyotisingh.com/common-disorders/">Common Disorders</a></li>
+	<li id="menu-item-226276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226276"><a href="https://www.drjyotisingh.com/weight-loss-nutritionist/">Weight Loss/Weight Gain</a></li>
+	<li id="menu-item-226295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226295"><a href="https://www.drjyotisingh.com/diabetes-care/">Diabetes Care</a></li>
+	<li id="menu-item-226313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226313"><a href="https://www.drjyotisingh.com/heart-care-cvd/">Heart Care (CVD)</a></li>
+</ul>
+</li>
+<li id="menu-item-226405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226405"><a href="https://www.drjyotisingh.com/online-diet-consultation/">Consultation Fees</a></li>
+<li id="menu-item-226278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-226278"><a href="https://www.drjyotisingh.com/blog/">Blog</a></li>
+<li id="menu-item-226273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226273"><a href="https://www.drjyotisingh.com/contact-us/">Contact</a></li>
+<li class="menu-item dipi-cta-button-menu-item ">
+				<a href="https://www.drjyotisingh.com/contact-us/" class="et_pb_button dipi-cta-button dipi-cta-button-icon-right dipi-cta-button-effect-zoomin " target="_blank">
+					<span>Book Consultation</span>
+				</a>
+			</li></ul>						</nav>
+					
+					
+					
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+					</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-226320" class="post-226320 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3"><div class="et_pb_with_border et_pb_section et_pb_section_3 et_pb_section_parallax et_pb_with_background et_section_regular" >
+				
+				<span class="et_parallax_bg_wrap"><span data-bg="https://www.drjyotisingh.com/wp-content/uploads/2021/09/Brown-and-Cream-Baked-Goods-Online-Store.webp"
+						class="et_parallax_bg et_pb_parallax_css rocket-lazyload"
+						style=""
+					></span></span>
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_3">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h1 style="text-align: center;">Nutritionist Dr. Aastha Karna</h1>
+<p style="text-align: center;">Online Diet Consultation and plans for different health conditions.</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_4 et_hover_enabled et_clickable  et_pb_text_align_left et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Make an Appointment</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5 et_hover_enabled et_clickable  et_pb_text_align_right et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner">Call:+91 95453 92648</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_4 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;">Dr. Aastha Karna </h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;">Double Gold medalist highly qualified practicing nutritionist in India</h3></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img fetchpriority="high" decoding="async" width="400" height="387" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20387'%3E%3C/svg%3E" alt="Dr Aastha Karna Nutritionist" title="Dr Aastha Karna" data-lazy-srcset="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh.webp 400w, https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh-300x290.webp 300w" data-lazy-sizes="(max-width: 400px) 100vw, 400px" class="wp-image-226739" data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh.webp" /><noscript><img fetchpriority="high" decoding="async" width="400" height="387" src="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh.webp" alt="Dr Aastha Karna Nutritionist" title="Dr Aastha Karna" srcset="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh.webp 400w, https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr-Aastha-Singh-300x290.webp 300w" sizes="(max-width: 400px) 100vw, 400px" class="wp-image-226739" /></noscript></span>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: justify;">Dr. Aastha is living her dream of making everyone healthy and fit. Her diet consultation portal drjyotisingh.com is a complete healthy food and nutrition manual with a compendium of published articles, tried &amp; tested recipes, videos, tips &amp; trivia and a wealth of information on the various issues related to weight loss and therapeutic diets.</p>
+<p style="text-align: justify;">A leading authority on nutrition and holistic therapies with a Ph.D. in Food Science and Nutrition, Dr. (Mrs.) Aastha Karna , is a published nutrition author and a renowned diet consultant. She has been writing various articles in nutrition for Hindustan Times  and  Times of India .</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_9 et_hover_enabled et_clickable  et_pb_text_align_right et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Online Appointment</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_10  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: justify;">Her articles have appeared in many renowned journals like Journal of Research, SKUAST-J, Himachal Journal of Agricultural Research, Beverage and Food World, and Journal of Dairying, Foods &amp; Home Sciences to name a few. Dr. Aastha&#8217;s research on soybeans has revealed numerous important characteristics about soybean paneer (Tofu). She has won a number of scholarships for her B.Sc, M.Sc, and Ph.D. degrees due to her exemplary academic performance. She also has two gold medals to her credit. Dr. Aastha has also done research work on food consumption behaviour and nutrient adequacy of Indian army personnel.</p>
+<p style="text-align: center;"><em><span style="color: #008000;">In addition to being a leading expert in nutrition, she is also a well-known speaker and broadcaster, with several talk shows and a couple of programmes on Channel Punjab. Dr. Aastha Karna is a highly qualified practising nutritionist with over eight years of formal education in the field, including Bachelor&#8217;s, Master&#8217;s, and Doctoral degrees.</span></em></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" >
+				<div class="et_pb_top_inside_divider et-no-transition"></div>
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Qualifications</h2></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_8">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Professional Qualification</h3>
+<p style="text-align: justify;">Dr. Aastha Karna is a highly qualified practicing nutritionist with eight plus years of academic exposure to the subject via formal, full-time, Bachelors, Masters and Doctoral degrees. She is conferred with a doctorate in Food Science and Nutrition (CSK HPKV, Palampur).</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_9 pa-bullet-list-1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_13 pa-bullet-list-1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Experience/Professional Background</h3>
+<p style="text-align: justify;">Dr. Aastha Karna has more than sixteen years of professional experience, exclusively in the nutrition field.</p>
+<ul>
+<li>Worked as a nutrition faculty in the educational institute of a top slimming and beauty company. Her role included conducting nutrition and dietetics classes for the full time course students and coordinating the nutrition correspondence courses as well.</li>
+<li>Worked as a guest lecturer in Government Home Science College, Chandigarh. Her responsibilities included conducting nutrition and dietetics classes (theory/practical) for B.Sc and M.Sc (Nutrition) students.</li>
+<li>Worked as an academic counsellor (IGNOU) for master&#8217;s degree (M.Sc) DFSM in Government College for women, Gandhi Nagar, Jammu. Her responsibilities included conducting nutrition and dietetics classes (theory/practical) for M.Sc (DFSM) students.</li>
+<li>Running her own diet clinic &#8220;Dr. Aastha&#8217;s Nutrition Pearls&#8221; since 2006.</li>
+</ul></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_10 pa-bullet-list-1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_14 pa-bullet-list-1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Academic Achievements</h3>
+<p style="text-align: justify;">A university first rank holder and a double gold medalist Dr. Aastha Karna was also felicitated for her academic achievements during her graduation, post graduation and doctorate.</p>
+<ul>
+<li><strong>Gold Medal awarded twice</strong>, at the state and university level.</li>
+<li><strong>Merit scholarship</strong> holder throughout B.Sc., M.Sc. and Ph.D.</li>
+<li>National eligibility test (<strong>NET</strong>) Qualified.</li>
+</ul></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_11">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_15 pa-bullet-list-1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Publications</h3>
+<ul>
+<li>H.R.Sharma, Aastha Parmar and Ranjana Verma. 2004. Physical, Nutritional and Sensory characteristics of cookies supplemented with tofu and okara solids. Abstract published in souvenir of 36 thannual meeting of Nutrition Society of India, Mysore.EN-73: p-143.</li>
+<li>Aastha Parmar, H.R. Sharma, Poonam Singh and Ranjana Verma. 2005. Physical, Nutritional and Sensory Attributes of Maize Chapattis Supplemented with Tofu, Okara and Soy Flour. Journal of Research, SKUAST-J, Sher-e-Kashmir University of Agricultural Sciences and Technology -J 4(2): pp 242-246.</li>
+<li>Aastha Parmar, H.R. Sharma, Poonam Singh and Ranjana Verma 2005. Supplementation of Indian flat bread (Chapattis) with okara: Effects on physical and nutritional qualities. Himachal Journal of Agricultural Research 31(2): pp140-145.</li>
+<li>Aastha Parmar, H.R. Sharma and Ranjana Verma. 2006. Physical and nutritional profiles of wheat chapattis supplemented with soy flour and tofu solids. Beverage and Food World (In Press).</li>
+<li>Aastha Parmar, H.R. Sharma and Ranjana Verma. 2005 Sensory Attributes of Wheat Chapattis Supplemented with Soy flour Tofu and Okara. Beverage and Food World (In Press).</li>
+<li>Aastha Parmar, H.R. Sharma and Ranjana Verma 2006 Effect of Coagulants and Drying on the Physico-chemical Characteristics of Tofu Communicated to Himachal Journal of Agricultural Research on 25-8-06.</li>
+<li>Aastha Parmar, H.R. Sharma and Ranjana Verma 2007. Effect of Source And Coagulants On The Physico-Chemical And Organoleptic Evaluation Of Soy Tofu. Journal of Dairying, Foods &#038; Home Sciences. Agricultural research and Communication Centre, Karnal 26(2): pp 69-74.</li>
+</ul></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_16 pa-bullet-list-1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span class="color-g">Hindustan times</span></h3>
+<ul>
+<li>&#8216;Summer fruits&#8217; Dated 13 July 06</li>
+<li>&#8216;Constipation&#8217; Dated 17 Sept. 06</li>
+<li>&#8216;Home remedies to control acidity&#8217; dated 31 Dec.06</li>
+<li>&#8216;Home remedies to fight cough&#8217; dated 07 Jan 07</li>
+<li>&#8216;Hypertension: a silent killer&#8217; dated 18 Feb. 07</li>
+<li>&#8216;Home remedies to ease asthma&#8217; dated 25 Feb.07</li>
+</ul></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_17 pa-bullet-list-1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span class="color-g">Times of India</span></h3>
+<ul>
+<li>&#8216;Summer fruits&#8217; Dated 13 July 06</li>
+<li>&#8216;Cough is a symptom not a disease&#8217; Dated 22 Feb. 07</li>
+<li>&#8216;Diabetes&#8217; Dated 2 March 07</li>
+<li>&#8216;Gall stones&#8217; Dated 8 March 07</li>
+<li>&#8216;Thyroid problems&#8217; Dated 15 March 07</li>
+<li>&#8216;PCOD&#8217; Dated 22 March 07</li>
+<li>&#8216;Manage diet to fight gout&#8217; Dated 05 April 07</li>
+<li>&#8216;Diarrhoea&#8217; Dated 12 April 07</li>
+<li>&#8216;Hypertension&#8217; Dated 26 April 07</li>
+<li>&#8216;Kidney problems&#8217; Dated 03 May 07</li>
+<li>&#8216;Menopausal problems&#8217; Dated 10 May 07</li>
+<li>&#8216;Asthma&#8217; Dated 24 May 07</li>
+<li>&#8216;Pharyngitis&#8217; Dated 31 May 07</li>
+<li>&#8216;Premature graying of hair&#8217; Dated 7 June 07</li>
+<li>&#8216;Managing arteriosclerosis with ease&#8217; Dated 14 June 07</li>
+<li>&#8216;Skin and nutrition&#8217; Dated 28 June 07</li>
+<li>&#8216;Easy remedies to fight acidity&#8217; Dated 12 July 07</li>
+<li>&#8216;Osteoporosis&#8217; Dated 19 July 07</li>
+<li>&#8216;Wheat grass&#8217; Dated 26 July 07&#8242;</li>
+<li>Chickpeas for good health&#8217; Dated 02 august 07</li>
+<li>&#8216;Tailor your diet to cure jaundice&#8217; Dated 23 august 07</li>
+<li>&#8216;Go for nutritious soybean&#8217; Dated 6 September 07</li>
+<li>&#8216;Staying healthy with fruits&#8217; Dated 13 September 07</li>
+<li>&#8216;Increased iron intake must for teen girls&#8217; Dated 20 September 07</li>
+<li>&#8216;For shiny tresses&#8217; Dated 27 September 07</li>
+<li>&#8216;Avocado&#8217; Dated 4 October 07</li>
+<li>&#8216;Controlling Cholesterol&#8217; Dated 11 October 07</li>
+<li>&#8216;Medicinal herbs that heal&#8217; Dated 25 October 07</li>
+<li>&#8216;Staying fit with holistic nutrition&#8217; Dated 01 November 07</li>
+<li>&#8216;The healing power of garlic &#8216; Dated 08 November 07</li>
+<li>&#8216;Olive oil has many health benefits &#8216; Dated 29 November 07</li>
+<li>&#8216;The perfect natural energy booster &#8216; Dated 06 December 07</li>
+<li>&#8216;An apple a day &#8216; Dated 27 December 07</li>
+<li>&#8216;How green is your diet&#8217; Dated 17 January 08</li>
+<li>&#8216;why&#8217;s the baby irritable&#8217; Dated 15 May 08</li>
+</ul></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				<div class="et_pb_bottom_inside_divider et-no-transition"></div>
+			</div><div class="et_pb_section et_pb_section_6 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_12 et_pb_gutters2">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Contact Us Online Anytime, 7 days a Week</h2></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Contact Info</h3></div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_0  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Plot No-386, Sector 79, SAS Nagar, Punjab 140308</span></h4>
+						
+					</div>
+				</div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_1  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>+91 95453 92648</span></h4>
+						
+					</div>
+				</div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_20  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Open Hours</h3></div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Mon – Fri: 10 am - 5 pm</span></h4>
+						
+					</div>
+				</div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_3  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Sat - Sun:  Closed</span></h4>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				<div class="et_pb_bottom_inside_divider et-no-transition"></div>
+			</div><div class="et_pb_section et_pb_section_7 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_13">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_21  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>TESTIMONIALS</h3></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_22  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;">From Our Visitors</h2></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_8 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_14">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module dipi_testimonial dipi_testimonial_0">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<div class="dipi-testimonial-main" data-columnsdesktop='3' data-columnstablet='1' data-columnsphone='1' data-spacebetween='44' data-spacebetween_tablet='44' data-spacebetween_phone='44' data-loop='on' data-speed='200' data-navigation='on' data-pagination='on' data-autoplay='on' data-autoplayspeed='4000' data-pauseonhover='off' data-effect='coverflow' data-rotate='43px' data-dynamicbullets='on' data-ordernumber='0' data-centered='off'>
+                <div class="swiper-container">
+                    <div class="dipi-testimonial-wrapper">
+                        
+                <div class="dipi-testimonial-item">
+                                            <div class="dipi-testimonial-img">
+                            <img width="150" height="150" decoding="async" 
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" 
+                                alt="Kept me Motivated to Reach My Goals"
+                            data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2021/12/sure.jpeg" /><noscript><img width="150" height="150" decoding="async" 
+                                src="https://www.drjyotisingh.com/wp-content/uploads/2021/12/sure.jpeg" 
+                                alt="Kept me Motivated to Reach My Goals"
+                            /></noscript>
+                        </div>
+                    
+                                        <div class="dipi-testimonial-rating">
+                        <span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span>                    </div>
+                    
+                                            <div class="dipi-testimonial-text">
+                            <div>Dr. Aastha is an amazing nutritionist and a lifestyle coach. Through her guidance and support, I lost weight, gained more energy, and improved my vital health parameters. She helped me via a customized meal and exercise plan. She kept me motivated by diligently keeping me on track with my goals. Her empathy and care for her customers set her apart, and she was always there to help overcome any barriers. Her mastery of the complex ...</div>
+                            
+                                                            <a href="#" data-mfp-src="#dipi-review-popup-1" class="dipi-open-popup-link">Read More</a>
+                                                    </div>
+                    
+                                            <div class="dipi-testimonial-name">
+                            Adnan J. Qureshi                        </div>
+                    
+                                            <div class="dipi-company-name">
+                                                        Australia                                                    </div>
+                    
+                </div>
+
+                
+                <div id="dipi-review-popup-1" style="background:#fff; width:0px;" class="white-popup mfp-hide dipi-review-popup-text dipi-review-popup-text-0">
+                    
+                    
+                                        
+                    <div class="dipi-review-popup-bottom">
+
+                                                <div class="dipi-profile-info">
+                            
+                                                    </div>
+                    </div>
+
+                    <button title="Close (Esc)" style="background:#000; color:#fff;" type="button" class="mfp-close">×</button>
+                </div>
+
+            
+                <div class="dipi-testimonial-item">
+                                            <div class="dipi-testimonial-img">
+                            <img width="150" height="150" decoding="async" 
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" 
+                                alt="Dr Aastha teaches you the art of eating food"
+                            data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/Deepti-Varma.jpg" /><noscript><img width="150" height="150" decoding="async" 
+                                src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/Deepti-Varma.jpg" 
+                                alt="Dr Aastha teaches you the art of eating food"
+                            /></noscript>
+                        </div>
+                    
+                                        <div class="dipi-testimonial-rating">
+                        <span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span>                    </div>
+                    
+                                            <div class="dipi-testimonial-text">
+                            <div><p style="text-align: left;">I used to frequently see these before-and-after pictures of people who have lost weight and find them to be completely unrealistic. I cannot lose even 500 gms, so how is this even possible? "If you want to go to a place where you know the plan will work, go to Dr. Aastha!
+Infact my name was registered as a failed candidate across all dietitian/ nutritionist not just in Hyderabad but also some ...</div>
+                            
+                                                            <a href="#" data-mfp-src="#dipi-review-popup-2" class="dipi-open-popup-link">Read More</a>
+                                                    </div>
+                    
+                                            <div class="dipi-testimonial-name">
+                            Deepti Varma                        </div>
+                    
+                                            <div class="dipi-company-name">
+                                                        HR Director, Amazon Corporate- APAC and Middle East                                                    </div>
+                    
+                </div>
+
+                
+                <div id="dipi-review-popup-2" style="background:#fff; width:0px;" class="white-popup mfp-hide dipi-review-popup-text dipi-review-popup-text-0">
+                    
+                    
+                                        
+                    <div class="dipi-review-popup-bottom">
+
+                                                <div class="dipi-profile-info">
+                            
+                                                    </div>
+                    </div>
+
+                    <button title="Close (Esc)" style="background:#000; color:#fff;" type="button" class="mfp-close">×</button>
+                </div>
+
+            
+                <div class="dipi-testimonial-item">
+                                            <div class="dipi-testimonial-img">
+                            <img width="150" height="150" decoding="async" 
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" 
+                                alt="Six month Dietetics Diploma to update my Nutrition knowledge"
+                            data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test5.jpg" /><noscript><img width="150" height="150" decoding="async" 
+                                src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test5.jpg" 
+                                alt="Six month Dietetics Diploma to update my Nutrition knowledge"
+                            /></noscript>
+                        </div>
+                    
+                                        <div class="dipi-testimonial-rating">
+                        <span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span>                    </div>
+                    
+                                            <div class="dipi-testimonial-text">
+                            <div>It’s been a very rewarding and knowledgable experience to have studied a six month Dietetics Diploma to update my Nutrition knowledge after my MSc in Foods and therapeutic nutrition, under the expert guidance of Dr. Aastha. She portrays a high level of professional knowledge in field of nutrition. Her comprehensive approach combined with indepth personalized assessment makes her a very unique nutritionist. She firmly believes that eating right and regular exercise will enable her ...</div>
+                            
+                                                            <a href="#" data-mfp-src="#dipi-review-popup-3" class="dipi-open-popup-link">Read More</a>
+                                                    </div>
+                    
+                                            <div class="dipi-testimonial-name">
+                            Rima Bajwa                        </div>
+                    
+                                            <div class="dipi-company-name">
+                                                        Patiala                                                    </div>
+                    
+                </div>
+
+                
+                <div id="dipi-review-popup-3" style="background:#fff; width:0px;" class="white-popup mfp-hide dipi-review-popup-text dipi-review-popup-text-0">
+                    
+                    
+                                        
+                    <div class="dipi-review-popup-bottom">
+
+                                                <div class="dipi-profile-info">
+                            
+                                                    </div>
+                    </div>
+
+                    <button title="Close (Esc)" style="background:#000; color:#fff;" type="button" class="mfp-close">×</button>
+                </div>
+
+            
+                <div class="dipi-testimonial-item">
+                                            <div class="dipi-testimonial-img">
+                            <img width="150" height="150" decoding="async" 
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" 
+                                alt="Dr. Aastha's nutrition plans work a full 100%"
+                            data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test-priya.jpg" /><noscript><img width="150" height="150" decoding="async" 
+                                src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test-priya.jpg" 
+                                alt="Dr. Aastha's nutrition plans work a full 100%"
+                            /></noscript>
+                        </div>
+                    
+                                        <div class="dipi-testimonial-rating">
+                        <span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span>                    </div>
+                    
+                                            <div class="dipi-testimonial-text">
+                            <div><p style="text-align: left;">If you want to go to a place knowing that the plan will work, head straight to Dr. Aastha! I have seen Dr. Aastha's nutrition plans work a full 100% for not just me but every single person she has worked with in my circle of friends - perhaps more than 20-25 people in just the last 3-4 months alone. She is foolproof and that is because her plans are strongly founded ...</div>
+                            
+                                                            <a href="#" data-mfp-src="#dipi-review-popup-4" class="dipi-open-popup-link">Read More</a>
+                                                    </div>
+                    
+                                            <div class="dipi-testimonial-name">
+                            Ms. Priya Singh                        </div>
+                    
+                                            <div class="dipi-company-name">
+                                                        Head of strategy and innovation (Europe and Asia) public sector Google Cloud                                                    </div>
+                    
+                </div>
+
+                
+                <div id="dipi-review-popup-4" style="background:#fff; width:0px;" class="white-popup mfp-hide dipi-review-popup-text dipi-review-popup-text-0">
+                    
+                    
+                                        
+                    <div class="dipi-review-popup-bottom">
+
+                                                <div class="dipi-profile-info">
+                            
+                                                    </div>
+                    </div>
+
+                    <button title="Close (Esc)" style="background:#000; color:#fff;" type="button" class="mfp-close">×</button>
+                </div>
+
+            
+                <div class="dipi-testimonial-item">
+                                            <div class="dipi-testimonial-img">
+                            <img width="150" height="150" decoding="async" 
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" 
+                                alt="High level of professionalism and sincerity in every task she undertakes"
+                            data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test-gaurav.jpg" /><noscript><img width="150" height="150" decoding="async" 
+                                src="https://www.drjyotisingh.com/wp-content/uploads/2021/11/test-gaurav.jpg" 
+                                alt="High level of professionalism and sincerity in every task she undertakes"
+                            /></noscript>
+                        </div>
+                    
+                                        <div class="dipi-testimonial-rating">
+                        <span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span><span class="dipi-testimonial-star-rating">★</span>                    </div>
+                    
+                                            <div class="dipi-testimonial-text">
+                            <div>She demonstrates professionalism and sincerity in every endeavor she undertakes. I had the pleasure of being introduced to her for nutrition and weight loss counseling by our friend Aditi Soni. She taught me the meaning of healthy eating and living through her program, which has helped me lose weight for the first time. My eating habits were not restricted by Dr. Aastha, but rather I was introduced to healthier alternatives.</div>
+                            
+                                                            <a href="#" data-mfp-src="#dipi-review-popup-5" class="dipi-open-popup-link">Read More</a>
+                                                    </div>
+                    
+                                            <div class="dipi-testimonial-name">
+                            Mr Gaurav, GM (operations)                        </div>
+                    
+                                            <div class="dipi-company-name">
+                                                        Shipping corporation Singapore                                                    </div>
+                    
+                </div>
+
+                
+                <div id="dipi-review-popup-5" style="background:#fff; width:0px;" class="white-popup mfp-hide dipi-review-popup-text dipi-review-popup-text-0">
+                    
+                    
+                                        
+                    <div class="dipi-review-popup-bottom">
+
+                                                <div class="dipi-profile-info">
+                            
+                                                    </div>
+                    </div>
+
+                    <button title="Close (Esc)" style="background:#000; color:#fff;" type="button" class="mfp-close">×</button>
+                </div>
+
+            
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-arrow-button dipi-button-next-0" data-icon="&#x35;"></div>
+            <div class="swiper-button-prev swiper-arrow-button dipi-button-prev-0" data-icon="&#x34;"></div>
+                <div class="swiper-container-horizontal">
+                    <div class="swiper-pagination dipi-pagination-0"></div>
+                </div>
+            </div>
+				</div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_button_alignment_tablet_center et_pb_button_alignment_phone_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_hover_enabled et_pb_bg_layout_light" href="/testimonials/">Read More </a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+						</div>
+
+				
+				</article>
+
+			
+
+</div>
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="block-5" class="fwidget et_pb_widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="250" height="249" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20249'%3E%3C/svg%3E" alt="Dr. Aastha Karna" class="wp-image-226725" data-lazy-srcset="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh.webp 250w, https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh-150x150.webp 150w" data-lazy-sizes="(max-width: 250px) 100vw, 250px" data-lazy-src="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh.webp" /><noscript><img decoding="async" width="250" height="249" src="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh.webp" alt="Dr. Aastha Karna" class="wp-image-226725" srcset="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh.webp 250w, https://www.drjyotisingh.com/wp-content/uploads/2022/08/Dr.-Aastha-Singh-150x150.webp 150w" sizes="(max-width: 250px) 100vw, 250px" /></noscript></figure>
+</div>
+</div><div id="block-6" class="fwidget et_pb_widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</div></div><div class="footer-widget"><div id="block-17" class="fwidget et_pb_widget widget_block"><h4><span style="color:#2b802d" class="has-inline-color">ABOUT</span></h4></div><div id="block-19" class="fwidget et_pb_widget widget_block"><p style="text-align:justify">Dr. Aastha Karna is fulfilling her desire to make everyone fit and healthy. In addition to containing a compilation of articles, videos, recipes, tips & trivia, and also providing weight loss and therapeutic diet information, her diet consultation website, drjyotisingh.com, provides a comprehensive healthy food and nutrition guide. She is a renowned Ph.D. holding nutritionist and holistic healer.</p></div></div><div class="footer-widget"><div id="nav_menu-3" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">SERVICES</h4><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-226319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226319"><a href="https://www.drjyotisingh.com/nutrition-females/">Nutrition for Females</a></li>
+<li id="menu-item-226316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226316"><a href="https://www.drjyotisingh.com/child-nutrition/">Child Nutrition</a></li>
+<li id="menu-item-226318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226318"><a href="https://www.drjyotisingh.com/weight-loss-nutritionist/">Weight Loss/Weight Gain</a></li>
+<li id="menu-item-226315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226315"><a href="https://www.drjyotisingh.com/diabetes-care/">Diabetes Care</a></li>
+<li id="menu-item-226317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226317"><a href="https://www.drjyotisingh.com/common-disorders/">Common Disorders</a></li>
+<li id="menu-item-226314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226314"><a href="https://www.drjyotisingh.com/heart-care-cvd/">Heart Care (CVD)</a></li>
+</ul></div></div></div><div class="footer-widget"><div id="block-21" class="fwidget et_pb_widget widget_block widget_text">
+<p></p>
+</div><div id="block-11" class="fwidget et_pb_widget widget_block"><p>Plot No-386, Sector 79, SAS Nagar, Punjab 140308<br>
+<strong>Phone:</strong> +91 95453 92648<br>
+<strong>Email:</strong> consult@drjyotisingh.com</p></div></div>	</div>
+</div>
+
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="https://www.facebook.com/nutritionistdrjyotisingh" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="https://www.twitter.com/drjyotisingh" class="icon">
+			<span>X</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-instagram">
+		<a href="https://www.instagram.com/nutritionistdrjyotisingh" class="icon">
+			<span>Instagram</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-rss">
+		<a href="https://www.drjyotisingh.com/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul><div id="footer-info">© 2024 Dr. Aastha Karna. All Rights Reserved </div>					</div>
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<script>window.wpsc_print_css_uri = 'https://www.drjyotisingh.com/wp-content/plugins/structured-content/dist/print.css';</script><div id="pum-227698" class="pum pum-overlay pum-theme-227557 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:227698,&quot;slug&quot;:&quot;book-consultation-underweight&quot;,&quot;theme_id&quot;:227557,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.underweight&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false"
+								   	aria-labelledby="pum_popup_title_227698">
+
+	<div id="popmake-227698" class="pum-container popmake theme-227557 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+							<div id="pum_popup_title_227698" class="pum-title popmake-title">
+				Book Consultation			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0 popup-row">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>&nbsp;</p>
+<div class="form-container-imp">
+<div class="book-consultant-wrapper" style="width: 100%; text-align: center; padding: 0 15px;">
+<p style="text-align: center;"><strong><span style="font-size: 18px;">Your Path to a Healthier You Begins Today</span></strong></p>
+<p style="text-align: center;"><span style="font-size: 14px;">We’ve calculated your BMI and noticed that it falls into a range that<br />health professionals consider as underweight.</span></p>
+<p style="text-align: center;"><span style="font-size: 14px;">Dr. Aastha is here to help you with a plan that’s tailored to your<br />unique health needs and goals.</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 18px;">Why Choose Dr. Aastha?</span></strong></p>
+<ul>
+<li style="text-align: center;"><span style="font-size: 14px;">– Customized nutrition strategies.</span></li>
+<li><span style="font-size: 14px;">– Supportive and evidence-based guidance.</span></li>
+<li><span style="font-size: 14px;">– A partner in your health journey.</span></li>
+</ul>
+<p style="text-align: center;"><strong><span style="font-size: 18px;">[Schedule a Consultation with Dr. Aastha]</span></strong></p>
+<p style="text-align: center; margin: 0 !important; padding: 0;"><span style="font-size: 14px;">Your wellness journey starts now.</span></p>
+<p style="text-align: center; margin: 0 !important;"><a class="small-button smallgreen" style="opacity: 1 !important; font-family: 'none', sans-serif; font-weight: bold; margin: 0 auto; display: block; font-size: 14px; width: 100%; max-width: 300px; margin-top: 30px; letter-spacing: 0px; color: #ffffff !important; background-color: #2b802d; border-width: 0px; border-radius: 50px; border-style: solid !important; transition: all 0.3s; padding: 20px !important;" href="https://www.drjyotisingh.com/contact-us/" target="_blank" rel="noopener">Schedule a Consultation with Dr. Aastha<br /></a></p>
+</div>
+<div data-bg="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Best-online-nutritionist-in-India.webp" id="banner" class="placeholder-banner rocket-lazyload" style=" height: 100%; width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;"> </div>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			X			</button>
+		
+	</div>
+
+</div>
+<div id="pum-227697" class="pum pum-overlay pum-theme-227557 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:227697,&quot;slug&quot;:&quot;book-consultation-obese&quot;,&quot;theme_id&quot;:227557,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.obese&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false"
+								   	aria-labelledby="pum_popup_title_227697">
+
+	<div id="popmake-227697" class="pum-container popmake theme-227557 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+							<div id="pum_popup_title_227697" class="pum-title popmake-title">
+				Book Consultation			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="et_pb_section et_pb_section_1 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1 popup-row">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>&nbsp;</p>
+<div class="form-container-imp">
+<div class="book-consultant-wrapper" style="width: 100%; text-align: center; padding: 0 15px;">
+<p style="text-align: center;"><strong><span style="font-size: 18px;">Your Path to a Healthier You Begins Today</span></strong></p>
+<p style="text-align: center;"><span style="font-size: 14px;">We’ve calculated your BMI and noticed that it falls into a range that<br />health professionals consider as Obese.</span></p>
+<p style="text-align: center;"><span style="font-size: 14px;">Dr. Aastha is here to help you with a plan that’s tailored to your<br />unique health needs and goals.</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 18px;">Why Choose Dr. Aastha?</span></strong></p>
+<ul>
+<li style="text-align: center;"><span style="font-size: 14px;">– Customized nutrition strategies.</span></li>
+<li><span style="font-size: 14px;">– Supportive and evidence-based guidance.</span></li>
+<li><span style="font-size: 14px;">– A partner in your health journey.</span></li>
+</ul>
+<p style="text-align: center;"><strong><span style="font-size: 18px;">[Schedule a Consultation with Dr. Aastha]</span></strong></p>
+<p style="text-align: center; margin: 0 !important; padding: 0;"><span style="font-size: 14px;">Your wellness journey starts now.</span></p>
+<p style="text-align: center; margin: 0 !important;"><a class="small-button smallgreen" style="opacity: 1 !important; font-family: 'none', sans-serif; font-weight: bold; margin: 0 auto; display: block; font-size: 14px; width: 100%; max-width: 300px; margin-top: 30px; letter-spacing: 0px; color: #ffffff !important; background-color: #2b802d; border-width: 0px; border-radius: 50px; border-style: solid !important; transition: all 0.3s; padding: 20px !important;" href="https://www.drjyotisingh.com/contact-us/" target="_blank" rel="noopener">Schedule a Consultation with Dr. Aastha<br /></a></p>
+</div>
+<div data-bg="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Best-online-nutritionist-in-India.webp" id="banner" class="placeholder-banner rocket-lazyload" style=" height: 100%; width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;"> </div>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			X			</button>
+		
+	</div>
+
+</div>
+<div id="pum-227566" class="pum pum-overlay pum-theme-227558 pum-theme-lightbox popmake-overlay click_open" data-popmake="{&quot;id&quot;:227566,&quot;slug&quot;:&quot;book-consultation-overweight&quot;,&quot;theme_id&quot;:227558,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.overweight&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false"
+								   	aria-labelledby="pum_popup_title_227566">
+
+	<div id="popmake-227566" class="pum-container popmake theme-227558 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+							<div id="pum_popup_title_227566" class="pum-title popmake-title">
+				Book Consultation			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="et_pb_section et_pb_section_2 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2 popup-row">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><style>
+.popup-row{
+width:100% !important;
+}
+  .form-container-imp {
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+  }</p>
+<p>  .book-consultant-wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 26px;
+  }
+  .book-consultant-wrapper ul {
+    list-style-type: none;
+  }</p>
+<p>  .placeholder-banner {
+    background-image: url(https://www.drjyotisingh.com/wp-content/uploads/2022/08/Best-online-nutritionist-in-India.webp);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+<div class="form-container-imp">
+<div class="book-consultant-wrapper" style="
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+">    </p>
+<p style="text-align: center">
+      <strong><span style="font-size: 18px;">Your Path to a Healthier You Begins Today</span></strong>
+    </p>
+<p style="text-align: center">
+      <span style="font-size: 14px;">We’ve calculated your BMI and noticed that it falls into a range that<br />
+        health professionals consider as overweight.</span>
+    </p>
+<p style="text-align: center">
+      <span style="font-size: 14px;">Dr. Aastha is here to help you with a plan that’s tailored to your<br />
+        unique health needs and goals.</span>
+    </p>
+<p style="text-align: center">
+      <strong><span style="font-size: 18px;">Why Choose Dr. Aastha?</span></strong>
+    </p>
+<ul>
+<li style="text-align: center">
+        <span style="font-size: 14px">– Customized nutrition strategies.</span>
+      </li>
+<li>
+        <span style="font-size: 14px">– Supportive and evidence-based guidance.</span>
+      </li>
+<li>
+        <span style="font-size: 14px">– A partner in your health journey.</span>
+      </li>
+</ul>
+<p style="text-align: center">
+      <strong><span style="font-size: 18px;">[Schedule a Consultation with Dr. Aastha]</span></strong>
+    </p>
+<p style="text-align: center;margin: 0 !important;padding: 0;">
+      <span style="font-size: 14px;">Your wellness journey&nbsp;starts&nbsp;now.</span>
+    </p>
+<p style="text-align: center;margin: 0 !important;">
+      <a href="https://www.drjyotisingh.com/contact-us/" class="small-button smallgreen" target="_blank" style="
+    opacity: 1 !important;
+    font-family: 'none', sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #ffffff !important;
+    background-color: #2b802d;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+    border-width: 0px;
+    border-radius: 50px;
+    border-style: solid !important;
+    transition: all 0.3s;
+" rel="noopener">Schedule a Consultation with Dr. Aastha<br />
+</a>
+    </p>
+</p>
+</div>
+<div data-bg="https://www.drjyotisingh.com/wp-content/uploads/2022/08/Best-online-nutritionist-in-India.webp" class="placeholder-banner rocket-lazyload" id="banner" style="
+    
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+"></div>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			X			</button>
+		
+	</div>
+
+</div>
+<!-- Click to Chat - https://holithemes.com/plugins/click-to-chat/  v3.34 -->  
+            <div class="ht-ctc ht-ctc-chat ctc-analytics ctc_wp_mobile style-2  " id="ht-ctc-chat"  
+                style="display: none;  position: fixed; bottom: 15px; right: 15px;"   >
+                                <div class="ht_ctc_style ht_ctc_chat_style">
+                <div  style="display: flex; justify-content: center; align-items: center;  " class="ctc-analytics ctc_s_2">
+    <p class="ctc-analytics ctc_cta ctc_cta_stick ht-ctc-cta  ht-ctc-cta-hover " style="padding: 0px 16px; line-height: 1.6; font-size: 15px; background-color: #25D366; color: #ffffff; border-radius:10px; margin:0 10px;  display: none; order: 0; ">WhatsApp us</p>
+    <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="50px" height="50px" viewBox="0 0 1024 1024">
+        <defs>
+        <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"/>
+        </defs>
+        <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+            <stop offset="0" stop-color="#61fd7d"/>
+            <stop offset="1" stop-color="#2bb826"/>
+        </linearGradient>
+        <use xlink:href="#htwasqicona-chat" overflow="visible" style="fill: url(#htwasqiconb-chat)" fill="url(#htwasqiconb-chat)"/>
+        <g>
+            <path style="fill: #FFFFFF;" fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"/>
+        </g>
+        </svg></div>                </div>
+            </div>
+                        <span class="ht_ctc_chat_data" 
+                data-no_number=""
+                data-settings="{&quot;number&quot;:&quot;919545392648&quot;,&quot;pre_filled&quot;:&quot;&quot;,&quot;dis_m&quot;:&quot;show&quot;,&quot;dis_d&quot;:&quot;show&quot;,&quot;css&quot;:&quot;display: none; cursor: pointer; z-index: 99999999;&quot;,&quot;pos_d&quot;:&quot;position: fixed; bottom: 15px; right: 15px;&quot;,&quot;pos_m&quot;:&quot;position: fixed; bottom: 15px; right: 15px;&quot;,&quot;schedule&quot;:&quot;no&quot;,&quot;se&quot;:150,&quot;ani&quot;:&quot;no-animations&quot;,&quot;url_target_d&quot;:&quot;_blank&quot;,&quot;ga&quot;:&quot;yes&quot;,&quot;fb&quot;:&quot;yes&quot;,&quot;g_an_event_name&quot;:&quot;chat: {number}&quot;,&quot;pixel_event_name&quot;:&quot;Click to Chat by HoliThemes&quot;}" 
+            ></span>
+            	<script type="text/javascript">
+				var et_link_options_data = [{"class":"et_pb_text_4","url":"https:\/\/www.drjyotisingh.com\/contact-us\/","target":"_self"},{"class":"et_pb_text_5","url":"tel:+91%209545392648","target":"_self"},{"class":"et_pb_text_9","url":"\/contact-us\/","target":"_self"}];
+			</script>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF4RK9J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><link rel='stylesheet' id='wp-block-library-css' href='https://www.drjyotisingh.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3' type='text/css' media='none' onload="media='all'" />
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/structured-content/dist/app.build.js?ver=1.6.2" id="structured-content-frontend-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+/* ]]> */
+</script>
+<script type="text/javascript" id="ht_ctc_app_js-js-extra">
+/* <![CDATA[ */
+var ht_ctc_chat_var = {"number":"919545392648","pre_filled":"","dis_m":"show","dis_d":"show","css":"display: none; cursor: pointer; z-index: 99999999;","pos_d":"position: fixed; bottom: 15px; right: 15px;","pos_m":"position: fixed; bottom: 15px; right: 15px;","schedule":"no","se":"150","ani":"no-animations","url_target_d":"_blank","ga":"yes","fb":"yes","g_an_event_name":"chat: {number}","pixel_event_name":"Click to Chat by HoliThemes"};
+var ht_ctc_variables = {"g_an_event_name":"chat: {number}","pixel_event_type":"trackCustom","pixel_event_name":"Click to Chat by HoliThemes","g_an_params":["g_an_param_1","g_an_param_2","g_an_param_3"],"g_an_param_1":{"key":"number","value":"{number}"},"g_an_param_2":{"key":"title","value":"{title}"},"g_an_param_3":{"key":"url","value":"{url}"},"pixel_params":["pixel_param_1","pixel_param_2","pixel_param_3","pixel_param_4"],"pixel_param_1":{"key":"Category","value":"Click to Chat for WhatsApp"},"pixel_param_2":{"key":"ID","value":"{number}"},"pixel_param_3":{"key":"Title","value":"{title}"},"pixel_param_4":{"key":"URL","value":"{url}"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js?ver=3.34" id="ht_ctc_app_js-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/imagesloaded.pkgd.min.js?ver=4.1.4" id="dipi_imagesloaded-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/ResizeSensor.js?ver=1.0.0" id="dipi_resize_sensor-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/masonry.pkgd.min.js?ver=4.2.2" id="dipi_masonry-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/vanilla-tilt.min.js?ver=1.7.1" id="dipi_vanilla_tilt-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/typed.js?ver=2.0.11" id="dipi_typing_text-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/jquery.event.move.js?ver=2.0.0" id="dipi_event_move-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/jquery.countdown.min.js?ver=1.0.0" id="dipi_countdown-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/morphext.min.js?ver=2.4.7" id="dipi_morphext-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/jquery.magnify.js?ver=2.3.3" id="dipi_magnify-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/jquery.throttle.debounce.min.js?ver=1.1" id="dipi_throttle_debounce-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/lottie.min.js?ver=1.0.0" id="dipi_lottie-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/pannellum.2.5.6.min.js?ver=2.5.6" id="dipi_pannellum-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/video.7.0.3.min.js?ver=7.0.3" id="dipi_videojs-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/videojs-pannellum-plugin.js?ver=1.0" id="dipi_videojs_pannellum_plugin-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/swiper.5.3.8.min.js?ver=.5.3.8" id="dipi_swiper_js-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/public/js/public.min.js?ver=1.10.3" id="dipi_public-js"></script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/www.drjyotisingh.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/www.drjyotisingh.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/www.drjyotisingh.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"18c2c28cca","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"659d0e8b59","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"226320","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https:\/\/www.drjyotisingh.com\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#2b802d","waypoints_options":{"context":[".pum-overlay"]}};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.24.0" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/plugins/divi-pixel/scripts/frontend-bundle.min.js?ver=1.0.0" id="divi-pixel-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.18.5","pm_dir_url":"https:\/\/www.drjyotisingh.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/www.drjyotisingh.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/www.drjyotisingh.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"227557","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https:\/\/www.drjyotisingh.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/www.drjyotisingh.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-227698":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".underweight"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"227557","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":227698,"slug":"book-consultation-underweight"},"pum-227697":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".obese"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"227557","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":227697,"slug":"book-consultation-obese"},"pum-227566":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".overweight"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"227558","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":227566,"slug":"book-consultation-overweight"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.drjyotisingh.com/wp-content/uploads/pum/pum-site-scripts.js?defer&amp;generated=1714550457&amp;ver=1.18.5" id="popup-maker-site-js"></script>
+<script type="text/javascript" src="https://www.drjyotisingh.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.24.0" id="et-core-common-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.drjyotisingh.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1716562846 -->
